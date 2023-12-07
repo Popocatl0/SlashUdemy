@@ -1,0 +1,42 @@
+[
+	{
+		"file": "G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\Source\\SlashUdemy\\Private\\Item\\Item.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
+			"@G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\.vscode\\compileCommands_Default\\SlashUdemy.255.rsp"
+		],
+		"directory": "G:\\Archivos de Programa\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\Source\\SlashUdemy\\Public\\Item\\Item.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
+			"@G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\.vscode\\compileCommands_Default\\SlashUdemy.255.rsp"
+		],
+		"directory": "G:\\Archivos de Programa\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\Source\\SlashUdemy\\SlashUdemy.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
+			"@G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\.vscode\\compileCommands_Default\\SlashUdemy.255.rsp"
+		],
+		"directory": "G:\\Archivos de Programa\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\Source\\SlashUdemy\\SlashUdemy.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
+			"@G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\.vscode\\compileCommands_Default\\SlashUdemy.255.rsp"
+		],
+		"directory": "G:\\Archivos de Programa\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\Source\\SlashUdemy\\SlashUdemy.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
+			"@G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\.vscode\\compileCommands_Default\\SlashUdemy.255.rsp"
+		],
+		"directory": "G:\\Archivos de Programa\\Epic Games\\UE_5.1\\Engine\\Source"
+	}
+]

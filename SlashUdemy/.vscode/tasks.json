@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "SlashUdemy Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SlashUdemy",
+				"Win64",
+				"Debug",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemy Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SlashUdemy",
+				"Win64",
+				"Debug",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SlashUdemy Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemy Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SlashUdemy",
+				"Win64",
+				"Debug",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemy Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SlashUdemy",
+				"Win64",
+				"DebugGame",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemy Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SlashUdemy",
+				"Win64",
+				"DebugGame",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SlashUdemy Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemy Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SlashUdemy",
+				"Win64",
+				"DebugGame",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemy Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SlashUdemy",
+				"Win64",
+				"Development",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemy Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SlashUdemy",
+				"Win64",
+				"Development",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SlashUdemy Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemy Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SlashUdemy",
+				"Win64",
+				"Development",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemy Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SlashUdemy",
+				"Win64",
+				"Test",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemy Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SlashUdemy",
+				"Win64",
+				"Test",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SlashUdemy Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemy Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SlashUdemy",
+				"Win64",
+				"Test",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemy Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SlashUdemy",
+				"Win64",
+				"Shipping",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemy Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SlashUdemy",
+				"Win64",
+				"Shipping",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SlashUdemy Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemy Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SlashUdemy",
+				"Win64",
+				"Shipping",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemyEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SlashUdemyEditor",
+				"Win64",
+				"Debug",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemyEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SlashUdemyEditor",
+				"Win64",
+				"Debug",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SlashUdemyEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemyEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SlashUdemyEditor",
+				"Win64",
+				"Debug",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemyEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SlashUdemyEditor",
+				"Win64",
+				"DebugGame",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemyEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SlashUdemyEditor",
+				"Win64",
+				"DebugGame",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SlashUdemyEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemyEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SlashUdemyEditor",
+				"Win64",
+				"DebugGame",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemyEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SlashUdemyEditor",
+				"Win64",
+				"Development",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemyEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SlashUdemyEditor",
+				"Win64",
+				"Development",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SlashUdemyEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "SlashUdemyEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SlashUdemyEditor",
+				"Win64",
+				"Development",
+				"G:\\Proyectos\\00_UNREAL\\SlashUdemy\\SlashUdemy\\SlashUdemy.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "G:\\Archivos de Programa\\Epic Games\\UE_5.1"
+			}
+		}
+	]
+}
